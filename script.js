@@ -28,7 +28,7 @@ let index=0;
 let total=questions.length;
 let right=0, wrong=0;
 const quesBox=document.getElementById("quesBox");
-const optionInputs=document.querySelectorAll('.options');
+const optionInputs=document.querySelectorAll('.options')
 const loadQuestion = () =>{
   if(index==total){
      return endQuiz()
